@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>libro de visitas</title>
+  </head>
+  <script src="blog.js"></script>
+  <body>
+    <h1 align="center">Articulos</h1>
+
+    <div id="comentario"></div>
+      <h2>Crear articulo</h2>
+    <input type="button" id="cambiartamaño" value="Texto Chico"onclick="letrachica()"></input>
+    <input type="button" id="cambiartamaño" value="Texto Mediano"onclick="letramediana()"></input>
+    <input type="button" id="cambiartamaño" value="Texto Grande"onclick="letragrande()"></input>
+    <input type="button" id="alinearderecha" value="Alinear derecha"onclick="derecha()"></input>
+    <input type="button" id="alinearizquierda" value="Alinear izquierda"onclick="izquierda()"></input>
+    <input type="button" id="centrado" value="Centrado"onclick="centrar()"></input>
+    <input type="button" id="color" value="Color de Texto "onclick="colorletra()"></input>
+      <input type="button" id="color" value="Color de Fondo "onclick="colorfondo()"></input>
+
+    <p><textarea id="entrada" onkeyup="escribir()"></textarea>
+    <h2>Contenido</h2>
+    <p id="salida"></p>
+
+    <input type="button" id="enviar" value="enviar" onclick="comentariofinal()">
+
+
+  </body>
+</html>
